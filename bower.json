@@ -1,0 +1,25 @@
+{
+  "name": "fullstack_exercise",
+  "description": "To start the application:1.In command line navigate to the app folder - fullstack_exercise 2.Type node server.js in the command line and press enter key 3.Open browser and type http://localhost:3000 4.You should see the application's dasboard page",
+  "main": "server.js",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-animate": "^1.6.9",
+    "angular-chart": "^0.5.0",
+    "angular-resource": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "chart.js": "^2.7.2",
+    "jquery": "^3.3.1"
+  }
+}
