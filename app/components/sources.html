@@ -1,0 +1,10 @@
+<header class="sectionHeader">Sources (%)</header>
+<div class="sourcesHolder">
+	<div ng-repeat="(key, value) in sources">
+		<div class="sourceType">{{upperCaseArray(key)}}</div>
+		<isteven-omni-bar current-value="value"></isteven-omni-bar>
+		<span class="sourcePercent">
+			{{value | number:0}}
+		</span>
+	</div>
+</div>

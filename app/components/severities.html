@@ -1,0 +1,23 @@
+<header class="sectionHeader">Severities</header>
+<div class="severitiesWrap">
+	<div class="chart-doughnut">
+		<canvas id="doughnut" class="chart chart-doughnut"
+	  		chart-data="[severities.High, severities.Medium, severities.Low]" chart-labels="labels" chart-colors=colors chart-options="options">
+		</canvas> 
+	</div>
+
+	<div class="severitiesDataHolder">
+		<div class="severitieState">
+			<div class="typeText">High</div>
+			<div>{{severities.High}}</div>
+		</div>
+		<div class="severitieState">
+			<div class="typeText">Medium</div>
+			<div>{{severities.Medium}}</div>
+		</div>
+		<div class="severitieState">
+			<div class="typeText">Low</div>
+			<div>{{severities.Low}}</div>
+		</div>
+	</div>
+</div>

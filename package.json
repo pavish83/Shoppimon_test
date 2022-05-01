@@ -1,5 +1,5 @@
 {
-  "name": "fullstack_exercise",
+  "name": "severity_dashboard",
   "version": "1.0.0",
   "description": "To start the application:1.In command line navigate to the app folder - fullstack_exercise 2.Type node server.js in the command line and press enter key 3.Open browser and type http://localhost:3000 4.You should see the application's dasboard page",
   "main": "server.js",
